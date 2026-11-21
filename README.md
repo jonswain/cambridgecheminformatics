@@ -13,6 +13,7 @@ No build step: plain HTML, CSS and a little JavaScript.
 - `index.html` – home (services, intro, latest blog posts)
 - `about/index.html`, `contact/index.html` – inner pages (keep the old WordPress URLs)
 - `404.html` – not-found page
+- `sitemap.xml`, `robots.txt` – for search engines (add new pages to the sitemap and update `lastmod` on big changes)
 - `assets/css/style.css` – all styles (light and dark mode)
 - `assets/fonts/` – self-hosted fonts (Inter, Space Grotesk, IBM Plex Mono; SIL Open Font License)
 - `assets/img/og-card.png` – 1200×630 social share image
@@ -23,4 +24,4 @@ No build step: plain HTML, CSS and a little JavaScript.
 
 - Links use relative paths so the site also works at `jonswain.github.io/<repo>/` while testing.
 - The contact email is stored reversed in `contact/index.html` (`data-email-u` / `data-email-d`).
-- A `CNAME` file containing `cambridgecheminformatics.com` is added when the domain is switched over.
+- `CNAME` sets the custom domain `cambridgecheminformatics.com` (DNS at Cloudflare, records set to DNS only).

@@ -13,6 +13,7 @@ No build step: plain HTML, CSS and a little JavaScript.
 - `index.html` – home (services, intro, latest blog posts)
 - `about/index.html`, `contact/index.html` – inner pages (keep the old WordPress URLs)
 - `404.html` – not-found page
+- `favicon.ico`, `apple-touch-icon.png` – PNG/ICO icons generated from `assets/img/favicon.svg` (for Safari, iOS home screen and older tools)
 - `sitemap.xml`, `robots.txt` – for search engines (add new pages to the sitemap and update `lastmod` on big changes)
 - `assets/css/style.css` – all styles (light and dark mode)
 - `assets/fonts/` – self-hosted fonts (Inter, Space Grotesk, IBM Plex Mono; SIL Open Font License)
